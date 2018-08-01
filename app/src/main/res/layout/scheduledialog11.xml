@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cool">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/edit_start_timea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Start Time"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="serif"
+        />
+
+    <EditText
+        android:id="@+id/edit_End_timea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="End Time"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule: "
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:fontFamily="serif"/>
+
+    <Button
+        android:id="@+id/showTIMEa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:background="#ffffff"/>
+
+
+</LinearLayout>
