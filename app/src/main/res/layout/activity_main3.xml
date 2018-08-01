@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Main3Activity"
     android:orientation="vertical"
+    android:background="@drawable/maxresdefault"
     >
 
     <EditText
@@ -68,6 +69,10 @@
         android:text="Add appliance"
         android:id="@+id/add_button"
         android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
         />
     <ListView
         android:layout_margin="15dp"

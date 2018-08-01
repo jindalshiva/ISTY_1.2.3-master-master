@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" font-family="serif">Auth</string>
-    <array name="Items" >
-        <item name="bulb" >BULB</item>
+    <array name="Items">
+        <item name="bulb">BULB</item>
         <item name="led">LED</item>
         <item name="Fan">FAN</item>
 
